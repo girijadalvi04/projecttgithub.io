@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .main{
+            background-color: gainsboro;
+        }
+
+ul{
+    list-style-type: none;
+overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+}
+.dropdown-menu a{
+    display: block;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+margin-top: 10px;
+} 
+.dropdown-menu a{
+    display: none;
+} 
+li.dropdown:hover .dropdown-menu a{
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul>
+  <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Contact</a></li>
+  <li class="dropdown"><a href="">Fashion</a>
+<div class="dropdown-menu">
+<a href="">Men's clothing</a>
+<a href="">Women's clothing</a>
+<a href="">Accessories</a>
+</div>
+</li>
+
+</ul>
+    </div>
+</body>
+</html>
