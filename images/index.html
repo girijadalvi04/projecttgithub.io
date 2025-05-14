@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+
+ul{
+    list-style-type: none;
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(242, 186, 195);
+    margin: 5px;
+   
+}
+li{
+float: left;
+} 
+.dropdown-menu a{
+    background-color: blueviolet;
+    /* border: 1px solid black; */
+    display: block;
+    color: aliceblue;
+    text-align: center;
+}
+.dropdown:hover .dropdown-menu{
+display: block;
+}
+.dropdown-menu{
+    display: none;
+} 
+.dropbtn{
+    background-color: aqua;
+}
+.dropdown-menu a:hover{
+    background-color: black;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+<ul>
+<li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+<li class="dropdown"><a href="" class="dropbtn">Fashion</a>
+<div class="dropdown-menu">
+<a href="">Men's Clothing</a>
+<a href="">Women's Clothing</a>
+<a href="">Accessories</a>
+</div>
+</li>
+</ul>
+ </div>
+</body>
+</html>
